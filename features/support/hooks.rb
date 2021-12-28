@@ -1,9 +1,12 @@
+# Gancho que é executado antes de cada cenário
 Before do
   driver.start_driver
   driver.manage.timeouts.implicit_wait = 10
 
   # Fechar modal da LGPD
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
+
+  @nav = Navigator.new
 end
 
 After do |scenario|

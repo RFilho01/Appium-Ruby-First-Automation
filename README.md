@@ -1,2 +1,2 @@
 # Appium-Ruby-First-Automation
-Primeira Automação Mobile usando Appium e Cucumber
+Automação Mobile usando Appium, Cucumber e gerando relatórios com o Allure.
